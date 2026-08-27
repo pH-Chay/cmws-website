@@ -1,0 +1,1 @@
+const b=document.querySelector('.menu-button'),n=document.querySelector('.main-nav');if(b&&n)b.onclick=()=>n.classList.toggle('open');async function loadJSON(p){const r=await fetch(p);if(!r.ok)throw Error(p);return r.json()}
