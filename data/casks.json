@@ -89,7 +89,11 @@
       "Outturn: 272 bottles"
     ],
     "status": "Bottled",
-    "note": "Distilled in the last century. After 21 years in a Verdejo cask, this whisky was aiming for the stars — bottled exactly 60 years after Yuri Gagarin became the first man in space. First official bottling to carry the CMWS name and logo."
+    "note": "Distilled in the last century. After 21 years in a Verdejo cask, this whisky was aiming for the stars — bottled exactly 60 years after Yuri Gagarin became the first man in space. First official bottling to carry the CMWS name and logo.",
+    "image": "assets/tomatin-32940-label.webp",
+    "imageAlt": "Front label for CMWS Tomatin single cask #32940, bottled in 2021",
+    "imageCaption": "Front label for CMWS Tomatin #32940 — bottle 1 of 272.",
+    "imageClass": "product"
   },
   {
     "anchor": "highland-park-500174",
