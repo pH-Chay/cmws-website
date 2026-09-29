@@ -1,4 +1,14 @@
-let all=[];const t=document.querySelector('#cask-timeline');function render(items){t.innerHTML='';items.forEach(x=>t.insertAdjacentHTML('beforeend',`<article id="${x.anchor}" class="timeline-item" style="scroll-margin-top:100px"><div class="timeline-year">${x.year}</div><div class="timeline-main"><div><div class="status">${x.status}</div><div class="kicker">${x.distillery}</div><h3>${x.title}</h3><p class="subtitle">${x.subtitle}</p><ul class="timeline-details">${x.details.map(d=>`<li>${d}</li>`).join('')}</ul></div><div class="timeline-side">${x.image?`<figure class="timeline-photo${x.imageClass?` ${x.imageClass}`:'' }"><img class="zoomable-image" src="${x.image}" alt="${x.imageAlt||''}" loading="lazy" tabindex="0" role="button" aria-label="Enlarge image"><figcaption>${x.imageCaption||''}</figcaption></figure>`:''}${x.noteTitle?`<h4 class="timeline-note-title">${x.noteTitle}</h4>`:'' }<p>${x.note}</p></div></div></article>`))}(async()=>{try{all=await loadJSON('data/casks.json');all.sort((a,b)=>Number(b.year)-Number(a.year));render(all)}catch(e){if(t)t.innerHTML='<p class="quiet">We apologize, the content is unavailable for the moment due to technical difficulties.<br>Please come back later.</p>'}})()
+let all=[];const t=document.querySelector('#cask-timeline');function renderFigure(image,imageAlt,imageCaption,imageClass){
+  return `<figure class="timeline-photo${imageClass?` ${imageClass}`:''}"><img class="zoomable-image" src="${image}" alt="${imageAlt||''}" loading="lazy" tabindex="0" role="button" aria-label="Enlarge image"><figcaption>${imageCaption||''}</figcaption></figure>`
+}
+function renderSide(x){
+  if(Array.isArray(x.storyBlocks)&&x.storyBlocks.length){
+    return x.storyBlocks.map(b=>`<section class="timeline-story-block">${b.title?`<h4 class="timeline-note-title">${b.title}</h4>`:''}${b.text?`<p>${b.text}</p>`:''}${b.image?renderFigure(b.image,b.imageAlt,b.imageCaption,b.imageClass):''}</section>`).join('')
+  }
+  return `${x.image?renderFigure(x.image,x.imageAlt,x.imageCaption,x.imageClass):''}${x.noteTitle?`<h4 class="timeline-note-title">${x.noteTitle}</h4>`:''}${x.note?`<p>${x.note}</p>`:''}`
+}
+function render(items){t.innerHTML='';items.forEach(x=>t.insertAdjacentHTML('beforeend',`<article id="${x.anchor}" class="timeline-item" style="scroll-margin-top:100px"><div class="timeline-year">${x.year}</div><div class="timeline-main"><div><div class="status">${x.status}</div><div class="kicker">${x.distillery}</div><h3>${x.title}</h3><p class="subtitle">${x.subtitle}</p><ul class="timeline-details">${x.details.map(d=>`<li>${d}</li>`).join('')}</ul></div><div class="timeline-side">${renderSide(x)}</div></div></article>`))}
+(async()=>{try{all=await loadJSON('data/casks.json');all.sort((a,b)=>Number(b.year)-Number(a.year));render(all)}catch(e){if(t)t.innerHTML='<p class="quiet">We apologize, the content is unavailable for the moment due to technical difficulties.<br>Please come back later.</p>'}})()
 
 const lightbox=document.createElement('div');
 lightbox.className='image-lightbox';
