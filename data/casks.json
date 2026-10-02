@@ -191,6 +191,20 @@
     "note": "Highland Park Viking Soul private-cask program - collaborative bottling that became the basis for our group. The name CMWS had not been coined yet, so we adopted the label «Òran Na Boii» meaning Bohemian Rhapsody in Gaelic.",
     "image": "assets/highland-park-viking-soul-cask.webp",
     "imageAlt": "Highland Park Viking Soul Cask programme barrels and branding",
-    "imageCaption": "Highland Park Viking Soul Cask programme."
+    "imageCaption": "Highland Park Viking Soul Cask programme.",
+    "storyBlocks": [
+      {
+        "text": "Highland Park Viking Soul private-cask program - collaborative bottling that became the basis for our group. The name CMWS had not been coined yet, so we adopted the label «Òran Na Boii» meaning Bohemian Rhapsody in Gaelic.",
+        "image": "assets/highland-park-viking-soul-cask.webp",
+        "imageAlt": "Highland Park Viking Soul Cask programme barrels and branding",
+        "imageCaption": "Highland Park Viking Soul Cask programme."
+      },
+      {
+        "image": "assets/highland-park-500115-cask.jpg",
+        "imageAlt": "Highland Park’s illustrative Viking Soul Cask image bearing cask number 500115",
+        "imageCaption": "Highland Park’s illustrative image supplied for our Viking Soul Cask #500115.",
+        "imageClass": "natural"
+      }
+    ]
   }
 ]
