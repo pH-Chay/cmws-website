@@ -1,5 +1,28 @@
 [
   {
+    "anchor": "lindores-abbey-maturing",
+    "year": 2027,
+    "distillery": "Lindores Abbey",
+    "title": "Two casks maturing",
+    "subtitle": "CMWS private casks · Purchased together in 2019",
+    "details": [
+      "Two casks maturing at the distillery",
+      "Small firkin — target bottling date: 4 February 2027",
+      "Second cask — maturing"
+    ],
+    "status": "Maturing",
+    "storyBlocks": [
+      {
+        "title": "A connection to whisky’s beginnings",
+        "text": "Our two casks are maturing at Lindores Abbey, a place with a remarkable connection to whisky’s beginnings. In 1494, Friar John Cor, a monk at Lindores, was commissioned to make aqua vitae from malt—the earliest written reference to Scotch whisky production."
+      },
+      {
+        "title": "Rather a lot of sevens",
+        "text": "We’re aiming to bottle our small firkin on 4 February 2027: 7 years, 7 months and 7 days old. A little patience, and rather a lot of sevens."
+      }
+    ]
+  },
+  {
     "anchor": "ardnamurchan-2110",
     "year": 2026,
     "distillery": "Ardnamurchan",
