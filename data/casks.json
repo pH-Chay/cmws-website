@@ -148,7 +148,12 @@
     "image": "assets/highland-park-500174-tasting.webp",
     "imageAlt": "Five Highland Park expressions lined up for a CMWS tasting: «Òran Na Boii» I, II and III, Hobbister and Ingvar",
     "imageCaption": "The three «Òran Na Boii» private-cask bottlings tasted alongside Highland Park Hobbister and Ingvar.",
-    "noteTitle": "Tasting the cask in context"
+    "noteTitle": "Tasting the cask in context",
+    "certificate": {
+      "image": "assets/HP VSC - CMWS cask 500174 - Certificate.jpg",
+      "imageAlt": "Highland Park certificate of authenticity for Viking Soul Cask #500174, signed by Gordon Motion",
+      "imageCaption": "Highland Park’s certificate of authenticity for Viking Soul Cask #500174, signed by Gordon Motion."
+    }
   },
   {
     "anchor": "highland-park-500153",
@@ -170,7 +175,12 @@
     "image": "assets/highland-park-500153-53-hq.svg",
     "imageAlt": "Highland Park Viking Soul Cask #500153 «Òran Na Boii» II bottle and carton",
     "imageCaption": "Bottle and carton design for «Òran Na Boii» II, Highland Park Viking Soul Cask #500153.",
-    "imageClass": "product"
+    "imageClass": "product",
+    "certificate": {
+      "image": "assets/HP VSC - CMWS cask 500153 - Certificate.jpg",
+      "imageAlt": "Highland Park certificate of authenticity for Viking Soul Cask #500153, signed by Gordon Motion",
+      "imageCaption": "Highland Park’s certificate of authenticity for Viking Soul Cask #500153, signed by Gordon Motion."
+    }
   },
   {
     "anchor": "highland-park-500115",
@@ -205,6 +215,11 @@
         "imageCaption": "Highland Park’s illustrative image supplied for our Viking Soul Cask #500115.",
         "imageClass": "natural"
       }
-    ]
+    ],
+    "certificate": {
+      "image": "assets/HP VSC - CMWS cask 500115 - Certificate.jpg",
+      "imageAlt": "Highland Park certificate of authenticity for Viking Soul Cask #500115, signed by Gordon Motion",
+      "imageCaption": "Highland Park’s certificate of authenticity for Viking Soul Cask #500115, signed by Gordon Motion."
+    }
   }
 ]
