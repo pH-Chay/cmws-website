@@ -76,7 +76,7 @@
       "Vintage: 2008",
       "Age: 14 years",
       "Cask: #2993",
-      "Cask type / finish: First fill Oloroso sherry hogshead from bodega José y Miguel Martín",
+      "Cask type / finish: First-fill Oloroso sherry hogshead from bodega José y Miguel Martín",
       "Strength: 58.5% ABV",
       "Bottled: 27 September 2023",
       "Outturn: 311 bottles"
@@ -113,13 +113,13 @@
     "anchor": "raasay-19-110",
     "year": 2022,
     "distillery": "Isle of Raasay",
-    "title": "30L Cask #19/110",
+    "title": "30 L cask #19/110",
     "subtitle": "Official CMWS bottling",
     "details": [
       "Vintage: 2019",
       "Age: 3 years",
       "Cask: #19/110",
-      "Cask type / finish: 30 litre cask",
+      "Cask type / finish: 30-litre cask",
       "Strength: 58.0% ABV",
       "Filled: 3 February 2019",
       "Bottled: 9 February 2022",
@@ -136,13 +136,13 @@
     "anchor": "raasay-19-109",
     "year": 2022,
     "distillery": "Isle of Raasay",
-    "title": "30L Cask #19/109",
+    "title": "30 L cask #19/109",
     "subtitle": "Official CMWS bottling",
     "details": [
       "Vintage: 2019",
       "Age: 3 years",
       "Cask: #19/109",
-      "Cask type / finish: 30 litre cask",
+      "Cask type / finish: 30-litre cask",
       "Strength: 58.5% ABV",
       "Filled: 3 February 2019",
       "Bottled: 9 February 2022",
@@ -220,7 +220,7 @@
       "Outturn: 53 bottles"
     ],
     "status": "Bottled",
-    "note": "Two years later, second wave of the HP VSC program took place. We mobilized our collective's resources and finally could get hold of two different casks, one American and the other European oak. Hence, we created a unique HP series «Òran Na Boii» I, II and III",
+    "note": "Two years later, the second wave of the Highland Park Viking Soul Cask programme began. We pooled our resources and secured two different casks: one American oak and the other European oak. Together with our first cask, these formed our unique Highland Park series, «Òran Na Boii» I, II and III.",
     "image": "assets/highland-park-500153-53-hq.svg",
     "imageAlt": "Highland Park Viking Soul Cask #500153 «Òran Na Boii» II bottle and carton",
     "imageCaption": "Bottle and carton design for «Òran Na Boii» II, Highland Park Viking Soul Cask #500153.",
@@ -247,13 +247,13 @@
       "Outturn: 55 bottles"
     ],
     "status": "Bottled",
-    "note": "Highland Park Viking Soul private-cask program - collaborative bottling that became the basis for our group. The name CMWS had not been coined yet, so we adopted the label «Òran Na Boii» meaning Bohemian Rhapsody in Gaelic.",
+    "note": "A collaborative bottling through Highland Park’s Viking Soul Cask programme became the foundation of our group. The name CMWS had not yet been coined, so we used «Òran Na Boii», meaning Bohemian Rhapsody in Gaelic.",
     "image": "assets/highland-park-viking-soul-cask.webp",
     "imageAlt": "Highland Park Viking Soul Cask programme barrels and branding",
     "imageCaption": "Highland Park Viking Soul Cask programme.",
     "storyBlocks": [
       {
-        "text": "Highland Park Viking Soul private-cask program - collaborative bottling that became the basis for our group. The name CMWS had not been coined yet, so we adopted the label «Òran Na Boii» meaning Bohemian Rhapsody in Gaelic.",
+        "text": "A collaborative bottling through Highland Park’s Viking Soul Cask programme became the foundation of our group. The name CMWS had not yet been coined, so we used «Òran Na Boii», meaning Bohemian Rhapsody in Gaelic.",
         "image": "assets/highland-park-viking-soul-cask.webp",
         "imageAlt": "Highland Park Viking Soul Cask programme barrels and branding",
         "imageCaption": "Highland Park Viking Soul Cask programme."
