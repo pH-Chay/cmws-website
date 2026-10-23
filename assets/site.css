@@ -17,3 +17,6 @@
 .home-visit-photo img{display:block;width:100%;height:auto;border:1px solid var(--line);border-radius:4px}
 .home-visit-photo figcaption{margin-top:12px;color:var(--muted);font-size:12px;line-height:1.5}
 @media(max-width:820px){.home-visit{padding:32px 0 40px}}
+
+/* Approved brightness adjustment for the Ardnamurchan selection group photo. */
+#ardnamurchan-2110 img[src*="IMG_6634"],.image-lightbox-img[src*="IMG_6634"]{filter:brightness(1.08)}
