@@ -128,6 +128,7 @@
     "status": "Bottled",
     "note": "Raasay also sent us the whisky remaining after the regular bottling run. The partly filled bottles arrived specially labelled “Single Cask Remnants” — an unusual extra from our two Raasay casks.",
     "image": "assets/raasay-19-110-remnants-composite-v2.webp",
+    "imageClass": "natural",
     "imageAlt": "CMWS Raasay Cask I and Cask II bottles, with Single Cask Remnants bottles shown in an inset",
     "imageCaption": "CMWS Raasay Casks I and II, with the specially labelled “Single Cask Remnants” bottles shown inset.",
     "noteTitle": "Even the remnants came with us"
