@@ -20,3 +20,8 @@
 
 /* Approved brightness adjustment for the Ardnamurchan selection group photo. */
 #ardnamurchan-2110 img[src*="IMG_6634"],.image-lightbox-img[src*="IMG_6634"]{filter:brightness(1.08)}
+
+/* Approved dark selection principles section. */
+.selection-principles{background:var(--ink);color:#efe7da;scroll-margin-top:96px}
+.selection-principles .kicker,.selection-principles .number,.selection-principles .quiet{color:#efe7da}
+.selection-principles .principle{border-color:rgba(239,231,218,.28)}
