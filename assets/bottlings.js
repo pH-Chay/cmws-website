@@ -8,7 +8,7 @@ function renderSide(x){
   return `${x.image?renderFigure(x.image,x.imageAlt,x.imageCaption,x.imageClass):''}${x.noteTitle?`<h4 class="timeline-note-title">${x.noteTitle}</h4>`:''}${x.note?`<p>${x.note}</p>`:''}`
 }
 function render(items){t.innerHTML='';items.forEach(x=>t.insertAdjacentHTML('beforeend',`<article id="${x.anchor}" class="timeline-item" style="scroll-margin-top:100px"><div class="timeline-year">${x.year}</div><div class="timeline-main"><div><div class="status">${x.status}</div><div class="kicker">${x.distillery}</div><h3>${x.title}</h3><p class="subtitle">${x.subtitle}</p><ul class="timeline-details">${x.details.map(d=>`<li>${d}</li>`).join('')}</ul></div><div class="timeline-side">${renderSide(x)}${x.certificate?renderFigure(x.certificate.image,x.certificate.imageAlt,x.certificate.imageCaption,'certificate'):''} </div></div></article>`))}
-(async()=>{try{all=await loadJSON('data/casks.json');all.sort((a,b)=>Number(b.year)-Number(a.year));render(all)}catch(e){if(t)t.innerHTML='<p class="quiet">This content is temporarily unavailable due to technical difficulties.<br>Please try again later.</p>'}})()
+(async()=>{try{all=await loadJSON('data/casks.json');all.sort((a,b)=>Number(b.year)-Number(a.year));render(all);if(location.hash){const target=document.getElementById(location.hash.slice(1));if(target)target.scrollIntoView({block:'start'})}}catch(e){if(t)t.innerHTML='<p class="quiet">This content is temporarily unavailable due to technical difficulties.<br>Please try again later.</p>'}})()
 
 const lightbox=document.createElement('div');
 lightbox.className='image-lightbox';

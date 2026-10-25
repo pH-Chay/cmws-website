@@ -25,3 +25,7 @@
 .selection-principles{background:var(--ink);color:#efe7da;scroll-margin-top:96px}
 .selection-principles .kicker,.selection-principles .number,.selection-principles .quiet{color:#efe7da}
 .selection-principles .principle{border-color:rgba(239,231,218,.28)}
+
+/* Approved darker homepage cards, with whole-card links to bottling details. */
+#featured-casks .cask-card{display:block;border-color:#aa9983;text-decoration:none}
+#featured-casks a.cask-card:hover{border-color:#8b540d}
