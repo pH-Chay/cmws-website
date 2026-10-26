@@ -41,7 +41,8 @@
     "note": "Official CMWS bottling selected in Prague at WLP 2025.",
     "storyBlocks": [
       {
-        "text": "Official CMWS bottling selected in Prague at WLP 2025.<br><br>At very short notice, Ardnamurchan kindly arranged for cask samples to be available at Whisky Life Prague, allowing around 30 members of our whisky club community to participate in the selection — far more than the handful who could normally travel to a distillery.<br><br>A wonderful opportunity to choose our cask together!"
+        "title": "Selecting together at Whisky Life Prague",
+        "text": "At short notice, Ardnamurchan kindly arranged for cask samples to be brought to Whisky Life Prague, where Antonia Bruce personally led the selection with around 30 CMWS members — far more than could have joined us at the distillery!"
       },
       {
         "image": "assets/Ardnamurchan Samples 251115 {IMG_6591 - J.Srb}.jpg",
@@ -206,7 +207,18 @@
     "image": "assets/highland-park-500174-tasting.webp",
     "imageAlt": "Five Highland Park expressions lined up for a CMWS tasting: «Òran Na Boii» I, II and III, Hobbister and Ingvar",
     "imageCaption": "The three «Òran Na Boii» private-cask bottlings tasted alongside Highland Park Hobbister and Ingvar.",
-    "storyBlocks": [{"text":"With two successful entries in the second wave of Highland Park’s Viking Soul Cask programme, we had the opportunity to purchase two casks. Highland Park was even happy to offer us two different types — one American oak and one European oak — giving us two quite different whiskies to explore.<br><br>By keeping the same name across both waves, we completed our unique trilogy of Highland Park Viking Soul Cask bottlings: «Òran Na Boii» I, II and III."},{"title":"Tasting the cask in context","text":"Whenever a new private cask arrives, we introduce it to our group in a tasting alongside other expressions from the same distillery. It helps us understand where our cask sits within the distillery’s wider style.<br><br>For this tasting, the line-up was unusual: three of the five whiskies were our own Highland Park Viking Soul Cask bottlings — «Òran Na Boii» I, II and III — with two additional rare Highland Park expressions for comparison.","image":"assets/highland-park-500174-tasting.webp","imageAlt":"Five Highland Park expressions lined up for a CMWS tasting: «Òran Na Boii» I, II and III, Hobbister and Ingvar","imageCaption":"The three «Òran Na Boii» private-cask bottlings tasted alongside Highland Park Hobbister and Ingvar."}],
+    "storyBlocks": [
+      {
+        "text": "With two successful entries in the second wave of Highland Park’s Viking Soul Cask programme, we had the opportunity to purchase two casks. Highland Park was even happy to offer us two different types — one American oak and one European oak — giving us two quite different whiskies to explore.<br><br>By keeping the same name across both waves, we completed our unique trilogy of Highland Park Viking Soul Cask bottlings: «Òran Na Boii» I, II and III."
+      },
+      {
+        "title": "Tasting the cask in context",
+        "text": "Whenever a new private cask arrives, we introduce it to our group in a tasting alongside other expressions from the same distillery. It helps us understand where our cask sits within the distillery’s wider style.<br><br>For this tasting, the line-up was unusual: three of the five whiskies were our own Highland Park Viking Soul Cask bottlings — «Òran Na Boii» I, II and III — with two additional rare Highland Park expressions for comparison.",
+        "image": "assets/highland-park-500174-tasting.webp",
+        "imageAlt": "Five Highland Park expressions lined up for a CMWS tasting: «Òran Na Boii» I, II and III, Hobbister and Ingvar",
+        "imageCaption": "The three «Òran Na Boii» private-cask bottlings tasted alongside Highland Park Hobbister and Ingvar."
+      }
+    ],
     "noteTitle": "Tasting the cask in context",
     "certificate": {
       "image": "assets/HP VSC - CMWS cask 500174 - Certificate.jpg",
