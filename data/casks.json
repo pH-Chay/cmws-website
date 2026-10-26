@@ -14,7 +14,11 @@
     "storyBlocks": [
       {
         "title": "A connection to whisky’s beginnings",
-        "text": "Our two casks are maturing at Lindores Abbey, a place with a remarkable connection to whisky’s beginnings. In 1494, Friar John Cor, a monk at Lindores, was commissioned to make aqua vitae from malt—the earliest written reference to Scotch whisky production."
+        "text": "Our two casks are maturing at Lindores Abbey, a place with a remarkable connection to whisky’s beginnings. In 1494, Friar John Cor, a monk at Lindores, was commissioned to make aqua vitae from malt—the earliest written reference to Scotch whisky production.",
+        "image": "assets/lindores-abbey-distillery.webp",
+        "imageAlt": "Stone exterior and entrance of Lindores Abbey Distillery",
+        "imageCaption": "Lindores Abbey Distillery.",
+        "imageClass": "natural"
       },
       {
         "title": "Lot of sevens",
