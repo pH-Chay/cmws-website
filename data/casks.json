@@ -203,6 +203,12 @@
       },
       {
         "text": "Distilled in the last century, matured for 21 years, and bottled on a historic anniversary — this whisky was aiming for the stars!"
+      },
+      {
+        "image": "assets/tomatin-2000-verdejo-bottle.webp",
+        "imageAlt": "Tomatin 2000 Verdejo bottle in its wooden presentation box",
+        "imageCaption": "The finished Tomatin bottling in its wooden presentation box.",
+        "imageClass": "product"
       }
     ]
   },
