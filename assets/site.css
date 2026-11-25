@@ -59,6 +59,12 @@
   scrollbar-width: none;
 }
 
+@media (prefers-reduced-motion: no-preference) {
+  .visit-carousel-track.is-interactive {
+    scroll-behavior: smooth;
+  }
+}
+
 .visit-carousel-track figure {
   margin: 0;
   scroll-snap-align: start;

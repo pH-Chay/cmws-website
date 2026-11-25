@@ -17,9 +17,9 @@ function initializeVisitCarousel() {
   const buttons = Array.from(controls.querySelectorAll('button'));
   const last = photos.length - 1;
   let current = -1;
+  let destination = null;
 
-  function updatePosition() {
-    const index = Math.max(0, Math.min(last, Math.round(track.scrollLeft / track.clientWidth)));
+  function setPosition(index) {
     if (index === current) return;
 
     current = index;
@@ -28,10 +28,26 @@ function initializeVisitCarousel() {
     buttons[1].setAttribute('aria-disabled', String(current === last));
   }
 
+  function updatePosition() {
+    const width = track.clientWidth;
+    if (!width) return;
+    if (destination !== null && Math.abs(track.scrollLeft - destination * width) > 1) return;
+
+    destination = null;
+    setPosition(Math.max(0, Math.min(last, Math.round(track.scrollLeft / width))));
+  }
+
+  function followTrack() {
+    destination = null;
+    updatePosition();
+  }
+
   function showPhoto(index) {
     if (index < 0 || index > last) return;
 
-    track.scrollLeft = index * track.clientWidth;
+    destination = index;
+    setPosition(index);
+    track.scrollTo({ left: index * track.clientWidth });
     updatePosition();
   }
 
@@ -40,6 +56,9 @@ function initializeVisitCarousel() {
   });
 
   track.addEventListener('scroll', updatePosition, { passive: true });
+  track.addEventListener('scrollend', followTrack);
+  track.addEventListener('pointerdown', followTrack, { passive: true });
+  track.addEventListener('wheel', followTrack, { passive: true });
   track.addEventListener('keydown', event => {
     const target = {
       ArrowLeft: current - 1,
