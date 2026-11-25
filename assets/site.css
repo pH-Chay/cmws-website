@@ -29,3 +29,88 @@
 /* Approved darker homepage cards, with whole-card links to bottling details. */
 #featured-casks .cask-card{display:block;border-color:#aa9983;text-decoration:none}
 #featured-casks a.cask-card:hover{border-color:#8b540d}
+
+.visit-carousel {
+  margin: 28px 0;
+  min-width: 0;
+  scroll-margin-top: 100px;
+}
+
+.visit-carousel h3 {
+  margin: 0 0 12px;
+  font-size: 24px;
+}
+
+.visit-carousel-track {
+  display: grid;
+  grid-auto-flow: column;
+  grid-auto-columns: 100%;
+  overflow-x: auto;
+  overscroll-behavior-x: contain;
+  scroll-snap-type: x mandatory;
+  outline-offset: 4px;
+}
+
+.visit-carousel-track:focus-visible {
+  outline: 3px solid var(--accent);
+}
+
+.visit-carousel-track.is-interactive {
+  scrollbar-width: none;
+}
+
+.visit-carousel-track figure {
+  margin: 0;
+  scroll-snap-align: start;
+  scroll-snap-stop: always;
+}
+
+.visit-carousel-track img {
+  display: block;
+  width: 100%;
+  height: auto;
+  aspect-ratio: 4 / 3;
+  background: var(--deep);
+}
+
+.visit-carousel-track figcaption {
+  padding-top: 8px;
+  color: var(--muted);
+  font-size: 14px;
+  line-height: 1.4;
+}
+
+.visit-carousel-controls:not([hidden]) {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-top: 10px;
+}
+
+.visit-carousel-controls button {
+  width: 44px;
+  height: 44px;
+  border: 1px solid var(--accent);
+  background: transparent;
+  color: var(--ink);
+  font: 20px/1 Arial, sans-serif;
+  cursor: pointer;
+}
+
+.visit-carousel-controls button[aria-disabled="true"] {
+  border-color: var(--line);
+  color: var(--muted);
+  cursor: default;
+}
+
+.visit-carousel-controls button[aria-disabled="false"]:hover {
+  background: var(--accent);
+  color: var(--paper);
+}
+
+.visit-carousel-position {
+  min-width: 44px;
+  color: var(--muted);
+  text-align: center;
+  font-size: 13px;
+}
